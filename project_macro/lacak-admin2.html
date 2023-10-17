@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lapor Alam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+
+<body class="lacak">
+    <nav class="navbar navbar-expand-lg navbar-inverse" style="font-weight: bold; background-color: #084403; font-size: 18px;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#"><img src="img/Logo.png" alt="" style="width: 50px; height: auto;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="Home2.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="Pengaduan.html">Pengaduan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="forum.html">Forum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="lacak.html">Lacak Isu</a>
+                    </li>
+                </ul>
+                <!--login-->
+
+                <div class="btn-group dropstart" style="color: #084403;">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" style = "color: #084403;"data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-user" style="color: #fff; border-radius: 2px;"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li style="padding-left: 10px;">
+                          <a href="profile.html" class="dropdown-item">
+                              <i class="fa-solid fa-user"></i> Admin
+                          </a>
+                      </li>
+                      <li style="padding-left: 30px;"><a href="Home.html" style="color: #084403; text-decoration: none;">LOGOUT</a></li>
+                   </ul>
+                  </div>
+
+              <!--akhir login-->
+            </div>
+        </div>
+    </nav>
+    <!--akhir navbar-->
+    <div class="container-section bg-grey py-5">
+        <div class="text container">
+            <div class="judul" style=" margin-top: 20px; font-weight: bold; color: #000; font-size: 30px; margin-top: 40px; margin-bottom: 20px;"><p>Daftar Isu</p></div>
+            <div class="row" style="margin-top: 20p; width: 102%;">
+            <!-- Box 1 -->
+            <div class="col-md-4" id="box1">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Santo</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Banjir
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Diverifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                10/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="col-md-4" id="box2">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Mirna</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Banjir
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                13/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="col-md-4" id="box3">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Zaky</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Banjir
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                07/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 4 -->
+            <div class="col-md-4" id="box4" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Wandi</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Jalan rusak
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                10/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 5 -->
+            <div class="col-md-4" id="box5" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Dewi</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Jalan rusak
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                13/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 6 -->
+            <div class="col-md-4" id="box6" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Reza</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Jalan rusak
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                07/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 7 -->
+            <div class="col-md-4" id="box7" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Fidho</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Pencemaran lingkungan hidup
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                10/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 8 -->
+            <div class="col-md-4" id="box8" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Esther</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Pencemaran lingkungan hidup
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                13/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 9 -->
+            <div class="col-md-4" id="box9" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Nico</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Pencemaran lingkungan hidup
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                07/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 10 -->
+            <div class="col-md-4" id="box10" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Budi</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Penebangan hutan
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                10/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 11 -->
+            <div class="col-md-4" id="box11" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Dela</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Penebangan hutan
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                13/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 12 -->
+            <div class="col-md-4" id="box12" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Hany</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Penebangan hutan
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                07/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 13 -->
+            <div class="col-md-4" id="box13" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Egi</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Kekeringan
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                10/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 14 -->
+            <div class="col-md-4" id="box14" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Julian</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Kekeringan
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                13/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 15 -->
+            <div class="col-md-4" id="box15"  style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Yola</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Kekeringan
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                07/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 16 -->
+            <div class="col-md-4" id="box16" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Riski</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Abrasi
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                10/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 17 -->
+            <div class="col-md-4" id="box17" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Ziko</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Abrasi
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                13/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 18 -->
+            <div class="col-md-4" id="box18" style="display: none;">
+                <div class="card mb-3">
+                    <div class="card-header" style="background-color: #74aa64">
+                        <h6>Ilham</h6>
+                    </div>
+                    <div class="d-flex justify-content-between" style="margin-left: 5px; margin-right: 5px;">
+                        <div>
+                            <p>
+                                <strong>Kategori</strong><br>
+                                Abrasi
+                            </p>
+                            <p>
+                                <strong>Status Penanganan</strong><br>
+                                <span style="background-color: #0C7503;color: #fff; padding: 5px; border-radius: 10px;">
+                                    Verifikasi
+                                </span>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <strong>Tgl. Mulai</strong><br>
+                                07/08/2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <i class="fa fa-angle-double-left" id="doubleArrowLeft" style="cursor: pointer; font-size: 18px;"></i>
+            <i class="fa fa-angle-left" id="arrowLeft" style="cursor: pointer; font-size: 18px; margin-left: 10px;"></i>
+            <i class="fa fa-angle-right" id="arrowRight" style="cursor: pointer; font-size: 18px; margin-left: 10px;"></i>
+            <i class="fa fa-angle-double-right" id="doubleArrowRight" style="cursor: pointer; font-size: 18px; margin-left: 10px;"></i>
+        </div>   
+    </div>
+
+    <!--footer-->
+    <footer class="text-center text-light" style="background-color: #084403; opacity: 79%; margin-top: 135px;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+        <!-- Section: Social media -->
+            <section>
+                <!-- Facebook -->
+                <a
+                class="btn btn-link btn-floating btn-lg text-light m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-facebook-f"></i
+                ></a>
+        
+                <!-- Twitter -->
+                <a
+                class="btn btn-link btn-floating btn-lg text-light  m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-twitter"></i
+                ></a>
+        
+                <!-- Instagram -->
+                <a
+                class="btn btn-link btn-floating btn-lg text-light m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-instagram"></i
+                ></a>
+        
+                <!-- Linkedin -->
+                <a
+                class="btn btn-link btn-floating btn-lg text-light  m-1"
+                href="#!"
+                role="button"
+                data-mdb-ripple-color="dark"
+                ><i class="fab fa-linkedin"></i
+                ></a>
+        
+                <div class="text-center text-light  p-3"">
+                    © 2023 Copyright:
+                    <a class="text-light" href="">LaporAlam</a>
+                </div>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script>
+        const boxes = [
+            document.getElementById('box1'),
+            document.getElementById('box2'),
+            document.getElementById('box3'),
+            document.getElementById('box4'),
+            document.getElementById('box5'),
+            document.getElementById('box6'),
+            document.getElementById('box7'),
+            document.getElementById('box8'),
+            document.getElementById('box9'),
+            document.getElementById('box10'),
+            document.getElementById('box11'),
+            document.getElementById('box12'),
+            document.getElementById('box13'),
+            document.getElementById('box14'),
+            document.getElementById('box15'),
+            document.getElementById('box16'),
+            document.getElementById('box17'),
+            document.getElementById('box18')
+        ];
+
+        const arrowLeft = document.getElementById('arrowLeft');
+        const arrowRight = document.getElementById('arrowRight');
+        const doubleArrowLeft = document.getElementById('doubleArrowLeft');
+        const doubleArrowRight = document.getElementById('doubleArrowRight');
+
+        let currentStartIndex = 0;
+
+        arrowLeft.addEventListener('click', function () {
+            navigate(-1);
+        });
+
+        arrowRight.addEventListener('click', function () {
+            navigate(1);
+        });
+
+        doubleArrowLeft.addEventListener('click', function () {
+            navigate(-2);
+        });
+
+        doubleArrowRight.addEventListener('click', function () {
+            navigate(2);
+        });
+
+        function navigate(offset) {
+            hideAllBoxes();
+
+            currentStartIndex += offset * 3;
+
+            if (currentStartIndex < 0) {
+                // Wrap around to the last set of boxes
+                currentStartIndex = Math.floor((boxes.length - 1) / 3) * 3;
+            } else if (currentStartIndex >= boxes.length) {
+                currentStartIndex = 0;
+            }
+
+            showBoxes(currentStartIndex, currentStartIndex + 2);
+        }
+
+        function hideAllBoxes() {
+            boxes.forEach(box => {
+                box.style.display = 'none';
+            });
+        }
+
+        function showBoxes(startIndex, endIndex) {
+            for (let i = startIndex; i <= endIndex; i++) {
+                if (i < boxes.length) {
+                    boxes[i].style.display = 'block';
+                }
+            }
+        }
+    </script>
+</body>
+</html>

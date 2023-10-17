@@ -1,0 +1,515 @@
+/* CSS HOME */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+
+.navbar-inverse {
+  background-color: #084403;
+  font-size: 18px;
+}
+
+nav ul li a:hover
+{
+  background-color:#1B860A;
+  color: white;
+  border-radius: 5px;
+}
+
+.container-section {
+  margin-top: 0px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home .container-section {
+  height: 620px;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+}
+
+.home .text {
+  font-size: 30px;
+  padding-left: 60px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.card-img-top {
+  border-radius: 40px;
+  padding: 20px;
+  height: 250px;
+  width: 350px; 
+  position: inherit;
+}
+
+.card-body a
+{
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content:center;
+  text-decoration: none;
+}
+
+.card-inverse 
+{
+  background-color: #0C7503;
+  opacity: 57%;
+  align-items: center;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* CSS ABOUT */
+.about .container-section {
+  height: 620px;
+}
+
+.about .text {
+  color: #0C7503;
+  font-size: 24px;
+}
+
+.about .bg-grey {
+  background-color: #eee;
+}
+
+.about .title {
+  font-size: 64px!important;
+  font-weight: bolder;
+}
+
+.about .form {
+  font-size: 20px;
+}
+
+/* CSS PENGADUAN */
+.box {
+  width: 500px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.529);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box img {
+  width: 25%;
+  height: auto;
+  pointer-events: none; 
+  border-radius: 20px;
+}
+
+.box i {
+  font-size: 18px;
+  color: grey;
+}
+
+.hidden-input {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.pengaduan .text {
+  color: #0C7503;
+  font-size: 24px;
+}
+
+.pengaduan .bg-grey {
+  background-color: #eee;
+}
+
+.pengaduan .title {
+  font-size: 64px!important;
+  font-weight: bolder;
+}
+
+.pengaduan form, label {
+  font-size: 20px;
+}
+
+/* CSS FORUM */
+
+.forum-page .box-chat {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 8fr 9fr;
+}
+
+.forum-page .profile-chat-photo img {
+  width: 30px; 
+  height: 30px; 
+}
+
+.forum-page .profile-chat-photo {
+  place-self: start end;
+  margin: 15px 5px;
+}
+
+.forum-page .chat-content {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 1fr min-content min-content;
+  place-items: start;
+}
+
+.forum-page .chat-name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #485373;
+  font-size: 1em;
+  margin: 0px 0px 3px 0px;
+  font-weight: bold;
+}
+
+.forum-page .chat-balloon{
+  max-width: 90%;
+  padding: 10px 20px;
+  margin: 0;
+  min-width: min-content;
+  border-radius: 0px 20px 20px 20px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+  background: #5c5c5c;
+  font-size: 0.9em;
+}
+
+.forum-page .your-chat {
+  display: grid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  grid-auto-flow: row;
+  grid-template-rows: min-content min-content;
+  margin-left: 950px;
+}
+
+.forum-page .your-chat-balloon {
+  max-width: 80%;
+  padding: 10px 20px;
+  margin-top: 5px;
+  margin-right: 2px;
+  min-width: min-content;
+  border-radius: 20px 20px 0px 20px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background: #727c74;
+  font-size: 0.9em;
+}
+
+.forum-page .typing-area {
+  width: 95%;
+  background: #248828;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 8fr 2fr 1fr;
+  border-radius: 20px;
+  margin-left: 25px;
+  margin-right: 15px;
+  overflow-x: hidden;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.forum-page .type-area {
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  outline: none;
+  background: none;
+  padding: 10px 20px;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.forum-page input::placeholder {
+  color: #fff;
+}
+
+.forum-page .typing-area .glyphicon, .attach-btn {
+  color: #555;
+  cursor: pointer;
+  place-self: center;
+  transition: .2s linear;
+}
+
+.forum-page .typing-area .glyphicon:hover, .attach-btn span:hover {
+  color: darkslateblue;
+}
+
+.forum-page #sendButton {
+  font-size: 1em;
+  background: none; 
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  
+}
+
+.forum-page .attach-btn {
+  font-size: 1.25em;
+}
+
+.forum-page .attach-btn span {
+  margin-left: 950px;
+}
+
+.forum-page .send-btn {
+  font-size: 2.25em;
+}
+
+/* CSS LOGIN */
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+.login body 
+{
+  background-color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration-color: green;
+}
+
+.login .judul p
+{
+  height: auto;
+  padding: 20px 0px 12px;
+  margin: 30px;
+  font-weight: bold;
+  color: #0B5E04;
+  text-align: center;
+  font-size: 250%;
+  margin-top: 5%;
+}
+
+.login .form-box
+{
+  width: 530px;
+  background: white;
+  margin: 10% auto;
+  padding: 30px 0;
+  color:black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-top: 0%;
+  border-radius: 2%;
+}
+
+.login .form-box p
+{
+  text-align: center;
+  margin-bottom: 20xp;
+}
+
+.login .input-box
+{
+  margin: 31px auto;
+  width: 80%;
+  border-bottom: 1px solid #000;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.login .input-box input
+{
+  width: 90%;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #000;
+}
+
+.login ::placeholder
+{
+  color: rgb(128, 116, 116);
+}
+
+.login .eye
+{
+  position: absolute;
+  cursor: pointer;
+}
+
+.login #hide1
+{
+  display: none;
+}
+
+.login .login-btn
+{
+  margin: 40px auto 20px;
+  width: 40%;
+  display: block;
+  outline: none;
+  padding: 10px 0;
+  border: 1px solid #000;
+  cursor: pointer;
+  background: #0f7a05;
+  color: white;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+/* CSS PROFILE */
+body {
+    height: 100%;
+}
+
+.profile .sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #084403; 
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.profile .profile-text {
+    font-weight: 400;
+    color: black; 
+    background-color: white; 
+    width: 350px;
+    padding: 5px 10px; 
+    border-radius: 15px; 
+    margin-bottom: 10px; 
+    margin-left: 50px;
+}
+
+.profile .logout-text {
+    font-weight: bold;
+    color: white;
+    padding: 5px 10px;
+    margin-left: 50px;
+}
+
+.profile .logout-text a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile .content {
+    margin-left: 250px; 
+    padding: 20px;
+}
+
+.profile .judul p
+{
+    height: auto;
+    padding: 20px 0px 12px;
+    font-weight: bold;
+    color: #0B5E04;
+    font-size: 250%;
+    margin-left: 80px;
+}
+
+.profile .card {
+    position: relative;
+    flex-direction: column;
+    width: 750px;
+    margin-left: 80px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.488), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.profile .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+/* CSS DAFTARISU-ADMIN */
+.daftarisu td {
+  padding: 5px;
+}
+
+.daftarisun.space-between {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.daftarisu .card {
+  position: relative;
+}
+
+.daftarisu .card-img-top {
+  position: absolute;
+  top: 80px; 
+  left: 530px; 
+}
